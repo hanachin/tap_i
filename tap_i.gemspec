@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'tapi/version'
+require 'tap_i/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "tapi"
-  spec.version       = Tapi::VERSION
+  spec.name          = "tap_i"
+  spec.version       = TapI::VERSION
   spec.authors       = ["Seiei Miyagi"]
   spec.email         = ["hanachin@gmail.com"]
 
   spec.summary       = %q{Tap with instance_eval.}
-  spec.homepage      = "https://github.com/hanachin/tapi"
+  spec.homepage      = "https://github.com/hanachin/tap_i"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

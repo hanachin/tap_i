@@ -1,4 +1,4 @@
-# Tapi
+# TapI
 
 Tap with instance_eval
 
@@ -7,7 +7,7 @@ Tap with instance_eval
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'tapi'
+gem 'tap_i'
 ```
 
 And then execute:
@@ -16,12 +16,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install tapi
+    $ gem install tap_i
 
 ## Usage
 
 ```ruby
-[].tapi { push :hi }
+[].tap_i { push :hi }
 # => [:hi]
 ```
 
@@ -33,7 +33,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/tapi. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/tap_i. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
 ## License

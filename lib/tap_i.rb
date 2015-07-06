@@ -1,7 +1,7 @@
-require "tapi/version"
+require "tap_i/version"
 
 class Object
-  def tapi(&block)
+  def tap_i(&block)
     instance_eval(&block) if block
     self
   end
