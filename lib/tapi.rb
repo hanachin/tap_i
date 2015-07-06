@@ -1,5 +1,8 @@
 require "tapi/version"
 
-module Tapi
-  # Your code goes here...
+class Object
+  def tapi(&block)
+    instance_eval(&block) if block
+    self
+  end
 end
